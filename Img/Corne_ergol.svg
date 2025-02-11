@@ -67,6 +67,7 @@
 
     @media (prefers-color-scheme: dark) {
       .specialKey .dualKey,
+      .specialKey .dualKeyLarge,
       .dualKey            { fill: #666; }
       .specialKey rect    { fill: #333; }
       rect, path          { fill: #444; }
@@ -75,8 +76,10 @@
       .mod                { fill: #eee; }
       .nav                { fill: #e83; }
       .num                { fill: lightgreen; }
+      #nav .dualKey       { fill: #e83; }
       #nav .dualKeyLarge  { fill: #e83; }
       #sym .dualKeyLarge  { fill: #77d; }
+      #sym .dualKey       { fill: #77d; }
       #num .dualKey       { fill: lightgreen; }
       #sym text.layer     { fill: black; }
       #nav text.layer     { fill: black; }
@@ -98,7 +101,7 @@
       </g>
       <g transform="translate(0 120)">
         <rect width="52" height="52" rx="5" ry="5"/>
-        <text x="26" y="26" style="font-size: 19px;"></text>
+        <text x="26" y="26" style="font-size: 19px;">⇧</text>
         <text x="26" y="43.4" class="nav">OCR</text>
       </g>
     </g>
@@ -223,20 +226,20 @@
         <text x="26" y="43.4" class="layer">HYPER</text>
       </g>
     </g>
-    <g class="thb_4 specialKey">
+    <g class="thb_4 specialKey" id="nav">
       <g>
         <rect width="52" height="52" rx="5" ry="5"/>
         <rect width="52" height="26" rx="2" ry="2" class="dualKey"/>
-        <text x="26" y="19.6" style="font-size: 19px;">⎋</text>
-        <text x="26" y="43.4">Shift</text>
+        <text x="26" y="16" style="font-size: 19px;">⎵</text>
+        <text x="26" y="43.4" class="layer">Nav</text>
       </g>
     </g>
-    <g class="thb_5 specialKey" id="nav">
+    <g class="thb_5 specialKey">
       <g>
         <rect width="52" height="82" rx="5" ry="5"/>
         <rect width="52" height="41" rx="5" ry="5" class="dualKeyLarge"/>
-        <text x="26" y="26" style="font-size: 19px;">⌫</text>
-        <text x="26" y="66" class="layer">Nav</text>
+        <text x="26" y="28" style="font-size: 19px;">⌫</text>
+        <text x="26" y="66" style="font-size: 19px;" class="">⇧</text>
       </g>
     </g>
   </g>
@@ -374,21 +377,21 @@
       </g>
     </g>
 
-    <g class="thb_6 specialKey" id="sym">
+    <g class="thb_6 specialKey">
       <g>
         <rect width="52" height="82" rx="5" ry="5"/>
         <rect width="52" height="41" rx="5" ry="5" class="dualKeyLarge"/>
-        <text x="26" y="26" style="font-size: 19px;">⎵</text>
-        <text x="26" y="66" class="layer">Sym</text>
+        <text x="26" y="30" style="font-size: 19px;">⏎</text>
+        <text x="26" y="66" style="font-size: 19px;" class="layer">⇧</text>
       </g>
     </g>
 
-    <g class="thb_7 specialKey">
+    <g class="thb_7 specialKey" id="sym">
       <g>
         <rect width="52" height="52" rx="5" ry="5"/>
         <rect width="52" height="26" rx="2" ry="2" class="dualKey"/>
-        <text x="26" y="20.6" style="font-size: 19px;">⏎</text>
-        <text x="26" y="43.4" class="layer">Shift</text>
+        <text x="26" y="17" style="font-size: 19px;">⎵</text>
+        <text x="26" y="43.4" class="layer">Sym</text>
       </g>
     </g>
 
@@ -396,7 +399,7 @@
       <g>
         <rect width="52" height="52" rx="5" ry="5"/>
         <rect width="52" height="26" rx="2" ry="2" class="dualKey"/>
-        <text x="26" y="20.6" ></text>
+        <text x="26" y="20" style="font-size: 19px;">↹</text>
         <text x="26" y="43.4" class="layer">HYPER</text>
       </g>
     </g>

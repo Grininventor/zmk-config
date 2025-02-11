@@ -91,17 +91,18 @@
     <g class="col_L specialKey">
       <g transform="translate(0 0)">
         <rect width="52" height="52" rx="5" ry="5"/>
-        <text x="26" y="23" style="font-size: 13px;">📎</text>
+        <text x="40" y="20" style="font-size: 19px;">📎</text>
+        <text x="15" y="20" style="font-size: 19px;">⎋</text>
         <text x="26.0" y="43.4" class="nav">PrtScrn</text>
       </g>
       <g transform="translate(0 60)">
         <rect width="52" height="52" rx="5" ry="5"/>
-        <text x="26" y="26" style="font-size: 19px;">⎋</text>
+        <text x="26" y="24" style="font-size: 19px;">⏎</text>
         <text x="26" y="43.4" class="nav">PrtSel</text>
       </g>
       <g transform="translate(0 120)">
         <rect width="52" height="52" rx="5" ry="5"/>
-        <text x="26" y="26" style="font-size: 19px;">⇧</text>
+        <text x="26" y="24" style="font-size: 25px;">↹</text>
         <text x="26" y="43.4" class="nav">OCR</text>
       </g>
     </g>
@@ -363,7 +364,7 @@
       <g transform="translate(0 0)">
         <rect width="52" height="52" rx="5" ry="5"/>
         <text x="26" y="26" style="font-size: 13px;">⌫</text>
-        <text x="26.0" y="43.4" class="nav">⏮</text>
+        <text x="26.0" y="43.4" class="nav">⏭</text>
       </g>
       <g transform="translate(0 60)">
         <rect width="52" height="52" rx="5" ry="5"/>
@@ -373,7 +374,7 @@
       <g transform="translate(0 120)">
         <rect width="52" height="52" rx="5" ry="5"/>
         <text x="26" y="26" style="font-size: 19px;">⇧</text>
-        <text x="26.0" y="43.4" class="nav">⏭</text>
+        <text x="26.0" y="43.4" class="nav">⏮</text>
       </g>
     </g>
 

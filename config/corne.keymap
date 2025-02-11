@@ -63,7 +63,7 @@
 &kp LS(LA(LC(LG(NUMBER_2))))  &kp LA(LC(LG(LS(N5))))  &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &kp DEL          &kp DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(DOT)      &kp C_NEXT
                                                                     &trans        &trans        &trans           &trans        &trans           &trans
             >;
-        }
+        };
 
         Settings {
             bindings = <
